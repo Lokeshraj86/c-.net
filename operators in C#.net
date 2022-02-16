@@ -1,0 +1,42 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace CSharp_Shell
+{
+
+    public class Program 
+    {
+        public static void Main()
+        {
+			int a=10,b=20;
+			bool result;
+			String result1;
+			int num=10;
+			Console.WriteLine("a ="+a);
+			Console.WriteLine("b ="+b);
+			Console.WriteLine("Arithmetic Operation");
+			Console.WriteLine("a+b ="+(a+b));
+			Console.WriteLine("a-b ="+(a-b));
+			Console.WriteLine("a*b ="+(a*b));
+			Console.WriteLine("a/b ="+(a/b));
+			Console.WriteLine("a%b ="+(a%b));
+		    Console.WriteLine("--------------");
+			Console.WriteLine("Relational Operator");
+			Console.WriteLine("a==b ="+(a==b));
+			Console.WriteLine("a>b ="+(a>b));
+			Console.WriteLine("a<b ="+(a<b));
+			Console.WriteLine("a>=b ="+(a>=b));
+			Console.WriteLine("a<=b ="+(a<=b));
+			Console.WriteLine("a!=b ="+(a!=b));
+			Console.WriteLine("Logical Operator");
+			Console.WriteLine("a==b || a>b" +((a==b)||(a>b)));
+			Console.WriteLine("a==b && a>b" +((a==b)&&(a>b)));
+			Console.WriteLine(result);
+			
+			
+			
+        }
+    }
+}
