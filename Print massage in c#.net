@@ -1,0 +1,23 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+
+
+public class HelloWorld
+{
+    static public void Main ()
+    {
+        int i;
+        int n;
+      Console.WriteLine("Enter A Number");
+        n=Convert.ToInt32(Console.ReadLine());
+        
+        for(i=0;i<=4;i++)
+        {
+        Console.WriteLine ("Teach One, Each One, Tree One");
+        }
+
+    }
+
+}
