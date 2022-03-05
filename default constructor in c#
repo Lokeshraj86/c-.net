@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        int a,b, num;
+        string name;
+        Program(int a,int b)
+        {
+            num = a + b;
+
+            Console.WriteLine("construstor called "+num);
+        }
+        static void Main(string[] args)
+        {
+            Program a=new Program(20,45);
+            Console.ReadLine();
+        }
+    }
+}
