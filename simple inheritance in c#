@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace inhertance99
+{
+    class Program
+    {
+        public string name = "Lokesh Rajput";
+        public int roll = 99;
+    }
+    class pro : Program
+    {
+        void demo()
+        {
+            Console.WriteLine("Name :- " + name);
+            Console.WriteLine("Roll no. :- " + roll);
+        }
+
+        public static void Main(string[] agrs)
+        {
+            pro obj = new pro();
+            obj.demo();
+            Console.ReadLine();
+        }
+    }
+}
+
