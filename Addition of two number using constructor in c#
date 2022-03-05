@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace abc
+{
+    class Program
+    {
+        int a, b, num;
+        string name;
+        Program(string name, int a,int b)
+        {
+            num = a + b;
+            Console.WriteLine(name + num);
+        }
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the value of a   ");
+            int n = Convert.ToInt32(Console.ReadLine());
+             Console.Write("Enter the valude of b   ");
+             int m = Convert.ToInt32(Console.ReadLine());
+            Program a1 = new Program("Addition of number is :  ",n,m);
+            Console.ReadLine();
+        }
+    }
+}
