@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication11
+{
+publicclassProgram
+    {
+	void get(int x)
+	  {
+	    x=15;
+	Console.WriteLine(x);
+	  }
+publicstaticvoid Main()
+        {
+	int x=30;
+			Program p=newProgram();
+			Console.WriteLine("before function call:-"+x);
+			p.get(x);
+			Console.WriteLine("after function call:-"+x);
+Console.ReadLine();
+        } 
+
+    }
+}
+
