@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication15
+{
+publicclassprogram
+    {
+publicstaticvoid Main()
+        {
+int i = 1;
+int n;
+Console.WriteLine("Enter A Number");
+            n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("table of given number");
+while (i <= 10)
+            {
+Console.WriteLine(n * i);
+                i++;
+            }
+Console.ReadLine();
+        }
+    }
+}
