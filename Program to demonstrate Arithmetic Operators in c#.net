@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication7
+{
+classProgram
+    {
+staticvoid Main(string[] args)
+        {
+int a,b,c;
+
+Console.WriteLine("Enter value of a="); 
+             a=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter value of b=");
+             b=Convert.ToInt32(Console.ReadLine());
+
+             c=a+b;
+Console.WriteLine("Addition of a and b="+c);
+Console.ReadLine();
+
+             c=a-b; 
+Console.WriteLine("Substraction of a and b= "+c);
+Console.ReadLine(); 
+
+             c=a/b;
+Console.WriteLine("Division of a and b ="+c); 
+Console.ReadLine();
+
+             c=a*b;
+Console.WriteLine("Multiplication of a and b="+c); 
+Console.ReadLine();
+
+             c=a%b; 
+Console.WriteLine("Modulation of a and b="+c); 
+Console.ReadLine();
+
+        }
+    }
+}
