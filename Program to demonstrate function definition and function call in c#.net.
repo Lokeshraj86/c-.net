@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication13
+{
+publicclassProgram
+    {  
+void print()
+	 {
+	Console.WriteLine("hello");
+	 }
+publicstaticvoid Main()
+      {
+	Program p=newProgram();
+        p.print();
+Console.ReadLine();
+      }
+
+    }
+
+}
